@@ -1,0 +1,10 @@
+body				{margin: 0; padding: 0; font: normal 14px "Open Sans"; width: 100%; color: #595959; background-color: #f7f7f7;}
+	body *		{float: left;}
+	form			{margin: 20px; padding: 10px; width: calc(50% - 60px); min-width: 300px; background-color: #ffffff; box-shadow: 0px 0px 4px #cccccc;}
+		.inputholder					{float: none; margin-top: 8px; height: 23px;}
+		.inputholder:first-child	{margin-top: 0;}
+			input							{height: calc(100% - 8px); border: 1px solid #cccccc; border-radius: 2px;}
+			input[type="text"],
+			input[type="password"]	{padding: 3px 4px; background-color: #fafafa;}
+			input[type="submit"]		{height: 100%; padding: 3px 8px; background-color: #d3fac8;}
+			input[disabled="disabled"]	{background-color: #ededed;}
